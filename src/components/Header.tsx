@@ -17,24 +17,20 @@ const Header: React.FC = () => {
           <nav>
             <ul className="flex items-center space-x-6">
               <li>
-                <a 
-                  href="https://rrbhanderi05.github.io/lokspire-new" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <Link 
+                  to="/" 
                   className="text-white hover:text-blue-100 transition-colors duration-300"
                 >
-                  About
-                </a>
+                  Home
+                </Link>
               </li>
               <li>
-                <a 
-                  href="https://rrbhanderi05.github.io/lokspire-new" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <Link 
+                  to="/add-listing" 
                   className="btn-hero-primary py-2.5 px-5"
                 >
                   Add Listing
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import BusinessDetail from './pages/BusinessDetail';
+import AddListing from './pages/AddListing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/business/:id" element={<BusinessDetail />} />
+            <Route path="/add-listing" element={<AddListing />} />
           </Routes>
         </main>
         <Footer />
@@ -21,5 +23,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
